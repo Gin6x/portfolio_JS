@@ -1,0 +1,48 @@
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+header {
+    font-size: 2rem;
+    padding: 30px;
+    padding-left: 55px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+    padding: 1.5rem;
+    column-gap: 1rem;
+    list-style-type: none;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.topBar {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 3fr 7fr;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.iosProject h1 {
+    margin: 0;
+}
+
+.iosProject img {
+    width: 100%;
+}
+
+.iosProject {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(238, 238, 238);
+}
