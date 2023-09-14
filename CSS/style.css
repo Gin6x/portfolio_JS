@@ -51,7 +51,7 @@ nav li a{
 }
 
 .iosProject img {
-    width: 60%;
+    width: 55%;
     height: auto;
 }
 
@@ -85,10 +85,58 @@ nav li a{
 
 .appDescription {
     background-color: rgb(238, 238, 238);
+    padding-bottom: 1.5rem;
 }
 
 .iosProject {
     grid-column: span 2; 
     grid-row: 2; 
     margin-top: 100px;
+}
+
+.copyRight {
+    display: flex;
+}
+
+.bottomContactContainer {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+}
+
+.bottomMail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footerLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footerLinks .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+  background: white;
+  color: black;
+  font-weight: 500;
+  display: grid;
+  grid-template-columns: 8fr 2fr;
+  justify-content: left;
+  align-items: center;
+  gap: 0.2rem;
 }
