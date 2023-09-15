@@ -7,7 +7,8 @@ var year = document.getElementById("year");
 var currentYear = new Date().getFullYear();
 
 projectsLink.addEventListener('click', () =>  {
-    console.log("Projects link pressed")
+    const mainPage = "index.html"
+    window.location.href = mainPage;
 });
 
 aboutLink.addEventListener('click', () =>  {
@@ -15,11 +16,14 @@ aboutLink.addEventListener('click', () =>  {
 });
 
 contactLink.addEventListener('click', () =>  {
-    console.log("Contact me link pressed")
+    const contactPage = "contact.html"
+    window.location.href = contactPage;
 });
 
 iOrderforUsButton.addEventListener('click', () =>  {
     console.log("Learn more of i_OrderforUs")
+    const iOrderforUsPage = "iOrderforUs.html";
+    window.location.href = iOrderforUsPage;
 });
 
 //set current year for footer

@@ -7,6 +7,7 @@
 .bodyContainer {
     background-color: rgb(214, 214, 214);
 }
+
 header {
     font-size: 2rem;
     padding: 30px;
@@ -34,11 +35,13 @@ nav li a{
     position: fixed;
     top: 0;
     left: 0;
+    right: 0;
     width: 100%;
 }
 
 .iosProject header {
     text-align: center;
+    font-size: 35px;
     padding-left: 20rem;
     padding-right: 20rem;
 }
@@ -96,6 +99,7 @@ nav li a{
 
 .copyRight {
     display: flex;
+    gap: 3px;
 }
 
 .bottomContactContainer {
@@ -130,7 +134,7 @@ nav li a{
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 2rem;
+  padding: 1rem;
   background: white;
   color: black;
   font-weight: 500;
