@@ -1,10 +1,16 @@
 //navBar links
+let homePageLink = document.getElementById("homePage");
 let projectsLink = document.getElementById("projects");
 let aboutLink = document.getElementById("aboutme");
 let contactLink = document.getElementById("contact");
 let iOrderforUsButton = document.getElementById("iOrderforUsButton");
 var year = document.getElementById("year");
 var currentYear = new Date().getFullYear();
+
+homePageLink.addEventListener('click', () =>  {
+    const mainPage = "index.html"
+    window.location.href = mainPage;
+});
 
 projectsLink.addEventListener('click', () =>  {
     const mainPage = "index.html"
