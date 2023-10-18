@@ -7,22 +7,22 @@ var year = document.getElementById("year");
 var currentYear = new Date().getFullYear();
 
 homePageLink.addEventListener('click', () =>  {
-    const homePage = "index.html"
+    const homePage = "/index.html"
     window.location.href = homePage;
 });
 
 projectsLink.addEventListener('click', () =>  {
-    const mainPage = "index.html"
+    const mainPage = "/index.html"
     window.location.href = mainPage;
 });
 
 aboutLink.addEventListener('click', () =>  {
-    const mainPage = "index.html"
+    const mainPage = "/index.html"
     window.location.href = mainPage;
 });
 
 contactLink.addEventListener('click', () =>  {
-    const contactPage = "contact.html"
+    const contactPage = "html/contact.html"
     window.location.href = contactPage;
 });
 
