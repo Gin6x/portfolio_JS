@@ -9,12 +9,12 @@ var year = document.getElementById("year");
 var currentYear = new Date().getFullYear();
 
 homePageLink.addEventListener('click', () =>  {
-    const mainPage = "index.html"
+    const mainPage = "/index.html"
     window.location.href = mainPage;
 });
 
 projectsLink.addEventListener('click', () =>  {
-    const mainPage = "index.html"
+    const mainPage = "/index.html"
     window.location.href = mainPage;
 });
 
