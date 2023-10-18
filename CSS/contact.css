@@ -1,0 +1,124 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bodyContainer {
+    background-color: rgb(238, 238, 238);
+}
+
+header {
+    font-size: 2rem;
+    padding: 30px;
+    padding-left: 55px;
+    font-weight: bold;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+    padding: 1.5rem;
+    column-gap: 1rem;
+    list-style-type: none;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.topBar {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 3fr 7fr;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.contact {
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.contact header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 20px;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.copyRight {
+    display: flex;
+    gap: 3px;
+}
+
+.bottomContactContainer {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+}
+
+.bottomMail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.bottomMail a {
+    text-decoration: none;
+    color: black;
+}
+
+.footerLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footerLinks .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footerLinks .icons a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background: white;
+  color: black;
+  font-weight: 500;
+  display: grid;
+  grid-template-columns: 8fr 2fr;
+  justify-content: left;
+  align-items: center;
+  gap: 0.2rem;
+}

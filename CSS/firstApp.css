@@ -5,17 +5,17 @@
 }
 
 .bodyContainer {
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(238, 238, 238);
 }
 
 header {
+    font-weight: bold;
     font-size: 2rem;
     padding: 30px;
     padding-left: 55px;
 }
 
 header a {
-    font-weight: bold;
     text-decoration: none;
     color: black;
 }
@@ -46,9 +46,9 @@ nav li a{
 }
 
 .iosProject header {
-    text-align: center;
+    text-align: left;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 55px;
     padding-left: 20rem;
     padding-right: 20rem;
 }
@@ -61,37 +61,43 @@ nav li a{
 }
 
 .iosProject img {
-    width: 50%;
+    width: 40%;
+    border-radius: 50px;
+    padding: 20px;
     height: auto;
-}
-
-.iosProject h1 {
-    text-align: center;
-    padding: 10px;
 }
 
 .topView {
     display: grid;
     align-items: center;
-    grid-template-columns: 7.5fr 2.5fr;
-    padding-left: 30rem;
-    padding-right: 30rem;
+    grid-template-columns: 8fr 2fr;
+    padding-top: 1rem;
+    padding-left: 20rem;
+    padding-right: 5rem;
+    gap: 5rem;
 }
 
-.topView .learnMoreButton {
-    display: inline-block;
-    width: 100%;
-    border: none;
-    border-radius: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: gray;
-    color: white;
+.topView .appBg {
+
+}
+
+.topView .techUse {
+    
+}
+
+.topView .techUse ul {
+    list-style-type: none;
+    
+}
+
+.topView .techUse ul li{
+
 }
 
 .iosProject h2 {
-    text-align: center;
-    padding: 10px;
+    text-align: left;
+    font-size: 20px;
+    padding-left: 20rem;
 }
 
 .appDescription {
@@ -100,63 +106,71 @@ nav li a{
 }
 
 .iosProject {
-    grid-column: span 2; 
-    grid-row: 2; 
     margin-top: 100px;
-}
-
-.imageContainer2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(238, 238, 238);
-}
-
-.topView2 {
     display: grid;
+    grid-template-columns: 6fr 4fr;
+    height: 20rem;
+}
+
+.howItWorkContainer {
+    display: grid;
+    grid-auto-flow: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 40px;
+    gap: 5px;
+    /* width: 100%; */
+    grid-auto-columns: 28% 24% 28% 20%;
+}
+
+.howItWorkContainer img {
+    height: 53%;
+    width: auto;
+}
+
+.howItWorkContainer p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.howItWorkContainer .create {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    grid-template-columns: 7.5fr 2.5fr;
-    padding-left: 30rem;
-    padding-right: 30rem;
 }
 
-.topView2 .learnMoreButton {
-    display: inline-block;
-    width: 100%;
-    border: none;
-    border-radius: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: gray;
-    color: white;
+.howItWorkContainer .create {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.appDescription2 {
-    background-color: rgb(238, 238, 238);
-    padding-bottom: 1.5rem;
+.howItWorkContainer .edit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/*  */
+/* .howItWorkContainer .edit img{
+    width: 90%;
+    height: fit-content;
+} */
 
-.aboutMe {
-    grid-column: span 2; 
-    grid-row: 3; 
+.howItWorkContainer .history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.aboutMe header {
-    text-align: center;
-    font-weight: bold;
-    font-size: 35px;
-    padding-left: 20rem;
-    padding-right: 20rem;
+.howItWorkContainer .composeMail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.aboutMe p {
-    text-align: center;
+.howItWorkContainer h1 {
     font-size: 20px;
-    padding-left: 20rem;
-    padding-right: 20rem;
-    padding-bottom: 2.5rem;
+    padding-top: 20px;
 }
 
 .copyRight {
