@@ -30,6 +30,7 @@ nav ul {
 
 nav li a{
     text-decoration: none;
+    font-weight: bold;
     color: black;
 }
 
@@ -114,7 +115,7 @@ nav li a{
 .appDescription .githubButton {
     text-decoration: none;
     display: inline-block;
-    width: 50%;
+    width: 45%;
     border: none;
     border-radius: 20px;
     padding: 10px 20px;
