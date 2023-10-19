@@ -7,6 +7,10 @@ var year = document.getElementById("year");
 var currentYear = new Date().getFullYear();
 let githubButton = document.getElementById("secondAppGithubButton")
 
+document.getElementById("secondAppGithubLink").addEventListener("click", function (e) {
+    e.preventDefault();
+});
+
 homePageLink.addEventListener('click', () =>  {
     const homePage = "/index.html"
     window.location.href = homePage;
