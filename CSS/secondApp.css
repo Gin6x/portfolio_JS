@@ -105,6 +105,27 @@ nav li a{
     padding-bottom: 1.5rem;
 }
 
+.appDescription .subDescription {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 8fr 2fr;
+}
+
+.appDescription .githubButton {
+    text-decoration: none;
+    display: inline-block;
+    width: 50%;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: gray;
+}
+
+.appDescription .githubButton a {
+    color: white;
+}
+
 .iosProject {
     margin-top: 100px;
     display: grid;

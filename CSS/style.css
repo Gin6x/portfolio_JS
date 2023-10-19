@@ -73,9 +73,9 @@ nav li a{
 .topView {
     display: grid;
     align-items: center;
-    grid-template-columns: 7.5fr 2.5fr;
-    padding-left: 30rem;
-    padding-right: 30rem;
+    grid-template-columns: 7fr 3fr;
+    padding-left: 40rem;
+    padding-right: 40rem;
 }
 
 .topView .learnMoreButton {
@@ -115,9 +115,9 @@ nav li a{
 .topView2 {
     display: grid;
     align-items: center;
-    grid-template-columns: 7.5fr 2.5fr;
-    padding-left: 30rem;
-    padding-right: 30rem;
+    grid-template-columns: 7fr 3fr;
+    padding-left: 40rem;
+    padding-right: 40rem;
 }
 
 .topView2 .learnMoreButton {
