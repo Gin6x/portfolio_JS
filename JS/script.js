@@ -25,19 +25,19 @@ aboutLink.addEventListener('click', () =>  {
 });
 
 contactLink.addEventListener('click', () =>  {
-    const contactPage = "HTML/contact.html"
+    const contactPage = "/HTML/contact.html"
     window.location.href = contactPage;
 });
 
 iOrderforUsButton.addEventListener('click', () =>  {
     console.log("Learn more of i_OrderforUs")
-    const iOrderforUsPage = "HTML/iOrderforUs.html";
+    const iOrderforUsPage = "/HTML/iOrderforUs.html";
     window.location.href = iOrderforUsPage;
 });
 
 f1KitButton.addEventListener('click', () =>  {
     console.log("Learn more of f1_Kit")
-    const f1KitPage = "HTML/f1Kit.html";
+    const f1KitPage = "/HTML/f1Kit.html";
     window.location.href = f1KitPage;
 });
 

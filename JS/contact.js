@@ -22,7 +22,7 @@ aboutLink.addEventListener('click', () =>  {
 });
 
 contactLink.addEventListener('click', () =>  {
-    const contactPage = "HTML/contact.html"
+    const contactPage = "contact.html"
     window.location.href = contactPage;
 });
 
