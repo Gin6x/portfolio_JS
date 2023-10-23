@@ -141,14 +141,21 @@ nav li a{
     padding-right: 5%;
     padding-top: 40px;
     gap: 5px;
-    /* width: 100%; */
+    width: 100%;
     grid-auto-columns: 28% 24% 28% 20%;
 }
 
 .howItWorkContainer img {
-    height: 53%;
-    width: auto;
+    min-height: 43%;
+    max-height: 53%;
+    min-width: none;
 }
+
+@media screen and (max-width: 1440px) {
+    .howItWorkContainer img {
+      max-width: 100%; /* Adjust the maximum width for this viewport size */
+    }
+  }
 
 .howItWorkContainer p {
     text-align: center;
