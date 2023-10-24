@@ -79,6 +79,13 @@ nav li a{
     padding-right: 40rem;
 }
 
+@media screen and (max-width: 1600px) {
+    .topView {
+        padding-left: 30rem;
+        padding-right: 30rem; 
+    }
+  }
+
 @media screen and (max-width: 1440px) {
     .topView {
         padding-left: 30rem;
