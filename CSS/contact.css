@@ -53,7 +53,6 @@ nav li a{
 
 .contact header {
     text-align: center;
-    font-weight: bold;
     font-size: 35px;
     padding-left: 20rem;
     padding-right: 20rem;
@@ -64,6 +63,12 @@ nav li a{
     font-size: 20px;
     padding-left: 20rem;
     padding-right: 20rem;
+}
+
+.contact a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
 }
 
 .copyRight {
