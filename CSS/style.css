@@ -81,8 +81,8 @@ nav li a{
 
 @media screen and (max-width: 1600px) {
     .topView {
-        padding-left: 30rem;
-        padding-right: 30rem; 
+        padding-left: 35rem;
+        padding-right: 35rem; 
     }
   }
 
@@ -142,6 +142,13 @@ nav li a{
     padding-right: 43rem;
 }
 
+@media screen and (max-width: 1600px) {
+    .topView2 {
+        padding-left: 30rem;
+        padding-right: 30rem; 
+    }
+  }
+
 @media screen and (max-width: 1440px) {
     .topView2 {
         padding-left: 33rem;
@@ -191,6 +198,13 @@ nav li a{
     padding-left: 43rem;
     padding-right: 43rem;
 }
+
+@media screen and (max-width: 1600px) {
+    .topView3 {
+        padding-left: 37rem;
+        padding-right: 37rem; 
+    }
+  }
 
 @media screen and (max-width: 1440px) {
     .topView3 {
