@@ -108,22 +108,43 @@ nav li a{
 
 .appDescription .subDescription {
     display: grid;
-    align-items: center;
-    grid-template-columns: 8fr 2fr;
+    justify-items: center;
+    grid-template-columns: 7fr 3fr;
 }
 
-.appDescription .githubButton {
+.subDescription .buttons {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 5fr 5fr;
+}
+
+.buttons .githubButton {
     text-decoration: none;
     display: inline-block;
-    width: 45%;
+    width: 100%;
     border: none;
     border-radius: 20px;
     padding: 10px 20px;
     font-size: 16px;
-    background-color: gray;
+    background-color:  gray;
 }
 
-.appDescription .githubButton a {
+.buttons .githubButton a {
+    color: white;
+}
+
+.buttons .youtubeButton {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:  gray;
+}
+
+.buttons .youtubeButton a {
     color: white;
 }
 

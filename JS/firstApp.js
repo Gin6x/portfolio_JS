@@ -4,10 +4,15 @@ let projectsLink = document.getElementById("projects");
 let aboutLink = document.getElementById("aboutme");
 let contactLink = document.getElementById("contact");
 let githubButton = document.getElementById("firstAppGithubButton")
+let youtubeButton = document.getElementById("firstAppYoutubeButton")
 var year = document.getElementById("year");
 var currentYear = new Date().getFullYear();
 
 document.getElementById("firstAppGithubLink").addEventListener("click", function (e) {
+    e.preventDefault();
+});
+
+document.getElementById("firstAppYoutubeLink").addEventListener("click", function (e) {
     e.preventDefault();
 });
 
@@ -40,6 +45,12 @@ contactLink.addEventListener('click', () =>  {
 
 githubButton.addEventListener('click', () =>  {
     var link = document.getElementById("firstAppGithubLink");
+            var url = link.href;
+            var newTab = window.open(url, "_blank");
+});
+
+youtubeButton.addEventListener('click', () =>  {
+    var link = document.getElementById("firstAppYoutubeLink");
             var url = link.href;
             var newTab = window.open(url, "_blank");
 });

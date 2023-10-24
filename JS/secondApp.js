@@ -6,8 +6,13 @@ let contactLink = document.getElementById("contact");
 var year = document.getElementById("year");
 var currentYear = new Date().getFullYear();
 let githubButton = document.getElementById("secondAppGithubButton")
+let youtubeButton = document.getElementById("secondAppYoutubeButton")
 
 document.getElementById("secondAppGithubLink").addEventListener("click", function (e) {
+    e.preventDefault();
+});
+
+document.getElementById("secondAppYoutubeLink").addEventListener("click", function (e) {
     e.preventDefault();
 });
 
@@ -40,6 +45,12 @@ contactLink.addEventListener('click', () =>  {
 
 githubButton.addEventListener('click', () =>  {
     var link = document.getElementById("secondAppGithubLink");
+            var url = link.href;
+            var newTab = window.open(url, "_blank");
+});
+
+youtubeButton.addEventListener('click', () =>  {
+    var link = document.getElementById("secondAppYoutubeLink");
             var url = link.href;
             var newTab = window.open(url, "_blank");
 });
