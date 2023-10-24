@@ -5,6 +5,7 @@ let aboutLink = document.getElementById("aboutme");
 let contactLink = document.getElementById("contact");
 let iOrderforUsButton = document.getElementById("iOrderforUsButton");
 let f1KitButton = document.getElementById("f1KitButton");
+let spinnerButton = document.getElementById("spinnerButton");
 var year = document.getElementById("year");
 var currentYear = new Date().getFullYear();
 
@@ -66,6 +67,12 @@ f1KitButton.addEventListener('click', () =>  {
     console.log("Learn more of f1_Kit")
     const f1KitPage = "/HTML/f1Kit.html";
     window.location.href = f1KitPage;
+});
+
+spinnerButton.addEventListener("click", function (e) {
+    e.preventDefault();
+    const spinnerPage = "/HTML/spinner.html";
+    var newTab = window.open(spinnerPage);
 });
 
 //set current year for footer

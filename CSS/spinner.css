@@ -7,7 +7,7 @@
 
 body{
     height: 100vh;
-    background: linear-gradient(135deg, #4ff768, #04780e);
+    background-color: rgb(238, 238, 238)
 }
 
 .wrapper{
