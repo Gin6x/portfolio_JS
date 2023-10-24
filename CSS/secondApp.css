@@ -173,13 +173,14 @@ nav li a{
 }
 
 .howItWorkContainer img {
-    height: 53%;
-    width: auto;
+    min-height: 43%;
+    max-height: 53%;
+    min-width: none;
 }
 
 @media screen and (max-width: 1440px) {
     .howItWorkContainer img {
-      max-width: 85%; 
+      max-width: 100%; 
     }
   }
 
