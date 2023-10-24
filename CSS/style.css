@@ -34,8 +34,6 @@ nav li a{
     color: black;
 }
 
-
-
 .topBar {
     display: grid;
     align-items: center;
@@ -75,19 +73,33 @@ nav li a{
 
 .topView {
     display: grid;
-    align-items: center;
-    grid-template-columns: 6.5fr 3.5fr;
+    justify-items: center;
+    grid-template-columns: 7fr 3fr;
     padding-left: 40rem;
     padding-right: 40rem;
 }
 
+@media screen and (max-width: 1440px) {
+    .topView {
+        padding-left: 30rem;
+        padding-right: 30rem; 
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .topView {
+        padding-left: 20rem;
+        padding-right: 20rem; 
+    }
+  }
+
 .topView .learnMoreButton {
     display: inline-block;
-    min-width: 150px;
-    max-width: 200px;
+    min-width: 100px;
+    max-width: 250px;
     border: none;
     border-radius: 20px;
-    padding: 10px;
+    padding: 20px;
     font-size: 16px;
     background-color: gray;
     color: white;
@@ -106,7 +118,6 @@ nav li a{
 .iosProject {
     grid-column: span 2; 
     grid-row: 2; 
-    /* margin-top: 100px; */
 }
 
 .imageContainer2 {
@@ -118,20 +129,34 @@ nav li a{
 
 .topView2 {
     display: grid;
-    align-items: center;
+    justify-items: center;
     grid-template-columns: 6.5fr 3.5fr;
-    padding-left: 40rem;
-    padding-right: 40rem;
+    padding-left: 43rem;
+    padding-right: 43rem;
 }
+
+@media screen and (max-width: 1440px) {
+    .topView2 {
+        padding-left: 33rem;
+        padding-right: 33rem; 
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .topView2 {
+        padding-left: 23rem;
+        padding-right: 23rem; 
+    }
+  }
 
 .topView2 .learnMoreButton {
     position: relative;
     display: inline-block;
-    min-width: 150px;
+    min-width: 100px;
     max-width: 200px;
     border: none;
     border-radius: 20px;
-    padding: 10px;
+    padding: 20px;
     font-size: 16px;
     background-color: gray;
     color: white;
@@ -142,7 +167,6 @@ nav li a{
     padding-bottom: 1.5rem;
 }
 
-/*  */
 
 .aboutMe {
     grid-column: span 2; 

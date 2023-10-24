@@ -98,8 +98,14 @@ nav li a{
 .iosProject h2 {
     text-align: left;
     font-size: 20px;
-    padding-left: 20rem;
+    padding-left: 14rem;
 }
+
+@media screen and (max-width: 1440px) {
+    .iosProject h2 {
+        padding-left: 20rem;
+    }
+  }
 
 .appDescription {
     background-color: rgb(238, 238, 238);
@@ -170,6 +176,18 @@ nav li a{
     height: 53%;
     width: auto;
 }
+
+@media screen and (max-width: 1440px) {
+    .howItWorkContainer img {
+      max-width: 85%; 
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .howItWorkContainer img {
+      max-width: 70%;
+    }
+  }
 
 .howItWorkContainer p {
     text-align: center;
